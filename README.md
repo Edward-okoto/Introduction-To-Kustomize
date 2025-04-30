@@ -283,36 +283,7 @@ minikube dashboard
 
 ![](./img/k8.png)
 
----
-
-
-
-
-
-
-### ✅ **Step 4: Deploy an Application**
-1️⃣ Create a basic deployment:
-```sh
-kubectl create deployment my-app --image=nginx
-```
-
-2️⃣ Expose it as a service:
-```sh
-kubectl expose deployment my-app --type=NodePort --port=80
-```
-
-3️⃣ Access the service:
-```sh
-minikube service my-app --url
-```
-✔ This will provide the external URL to access your application.
-
----
-
-### 🚀 **Next Steps**
-✅ **Want help deploying a Helm chart on Minikube?**  
-✅ **Need guidance setting up Ingress for external access?**  
-✅ **Looking to configure persistent storage for Minikube?**  
+ 
 
 
 
